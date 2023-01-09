@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO LIST</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="task-input">
+        <img src="option.svg" alt="icons" />
+        <input type="text" placeholder="Add a new task" />
+      </div>
+      <div class="controls">
+        <div class="filters">
+          <span id="all" class="active">All</span>
+          <span id="pending">Pending</span>
+          <span id="completed">Completed</span>
+        </div>
+        <button class="clear-btn">Clear All</button>
+      </div>
+      <ul class="task-box">
+        <li class="task">
+          <label for="">
+            <input type="checkbox" id="1" />
+            <p>Renew gym</p>
+          </label>
+          <div class="settings">
+            <i class="uil uil-ellipsis-h"></i>
+            <ul class="task-menu">
+              <li><i class="uil uil-pen">Edit</i></li>
+              <li><i class="uil uil-trash">Delete</i></li>
+            </ul>
+          </div>
+        </li>
+        <li class="task">
+          <label for="">
+            <input type="checkbox" id="1" />
+            <p>create a youtube video</p>
+          </label>
+          <div class="settings">
+            <i class="uil uil-ellipsis-h"></i>
+          </div>
+        </li>
+        <li class="task">
+          <label for="">
+            <input type="checkbox" id="1" />
+            <p>write a blog</p>
+          </label>
+          <div class="settings">
+            <i class="uil uil-ellipsis-h"></i>
+          </div>
+        </li>
+        <li class="task">
+          <label for="">
+            <input type="checkbox" id="1" />
+            <p>Project</p>
+          </label>
+          <div class="settings">
+            <i class="uil uil-ellipsis-h"></i>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
